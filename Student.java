@@ -75,22 +75,5 @@ public class Student implements Comparable<Student> {
         return Integer.compare(this.id, other.id);
     }
 
-   /* @Override
-    public Student compareTo( Object o1, Object o2) {
-        if (o1 instanceof Student && o2 instanceof Student) {
-            if( ((Student) o1).getGrade() < ((Student) o2).getGrade() ) {
-                return (Student) o2;
-            }
-
-            else if( ((Student) o1).getGrade() > ((Student) o2).getGrade() ) {
-                return (Student) o1;
-            }
-            else {
-                return (Student) o1;
-            }
-        }
-        return null;
-    }
-
-    */
+   
 }
