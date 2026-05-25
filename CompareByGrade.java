@@ -9,6 +9,7 @@ public class CompareByGrade implements Comparator<Student> {
      * @param o1 the first student to be compared.
      * @param o2 the second student to be compared.
      * @return 0 if there are equal, 1 if "o1" has higher grade then "o2" , -1 otherwise
+     * @throws NullPointerException if One of the given students is null
      */
     @Override
     public int compare(Student o1, Student o2) {
