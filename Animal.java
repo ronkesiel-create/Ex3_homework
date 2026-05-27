@@ -25,11 +25,11 @@ public class Animal {
    public double getWeight() {
        return weight;
    }
-   public void MakeSound() {
+   public void makeSound() {
        System.out.println("Some generic animal sound");
    }
    @Override
    public String toString() {
-       return "name: " + name + ", age: " + age + ", weight: " + weight;
+       return "name: " + name + ", age: " + age +" years old "+ ", weight: " + weight+" kilos";
    }
 }

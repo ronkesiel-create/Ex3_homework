@@ -1,4 +1,4 @@
-public class AnimalUI {
+public interface AnimalUI {
     public interface Swimmer {
         void swim();
         double getMaxSwimSpeed();   // לשנייה במטר
@@ -8,4 +8,11 @@ public class AnimalUI {
         void fly();
         double getMaxFlightHeight();   // במטרים
     }
+
+    /**
+     * prints the sound the animal makes
+     */
+    public void makeSound();
+
+
 }
