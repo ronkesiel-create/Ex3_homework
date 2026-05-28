@@ -1,10 +1,13 @@
-import jdk.dynalink.beans.StaticClass;
+package AnimalsCode;
 
 public class Zoo {
 
+    /**
+     * This main method takes an array of different animals.
+     * Then it print the fastest swimmer from the swimming animals and the fastest flyer from the flying animals
+     */
     public static void main(String[] args) {
         Animal[] animals = new Animal[5];
-        System.out.println("remember that the weight is in kilos");
         System.out.println();
         animals[0] = new Lion("Lion", 2, 70);
         animals[1] = new Eagle("Eagle", 3, 6);

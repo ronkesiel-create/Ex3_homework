@@ -1,3 +1,5 @@
+package StudentClasses;
+
 import java.util.Arrays;
 
 public class StudentTest {

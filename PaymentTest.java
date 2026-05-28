@@ -3,9 +3,9 @@ package MoneyBankClass;
 import java.lang.classfile.Superclass;
 
 /**
- * This  main method is taking an array with 3 objects of  payable methods.
- * then does on every object the pay function with set amount.
- * print if the Transaction was successful or not and if so, prints the remaining balance in the set object.
+ * This  main method is taking an array with 3 instances of payable methods.
+ * then does on every  instance the pay function with set amount.
+ * print if the Transaction was successful or not and if so, prints the remaining balance in the set  instance.
  *
  */
 public class PaymentTest {

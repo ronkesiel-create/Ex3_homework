@@ -1,12 +1,22 @@
+package AnimalsCode;
+
 public interface AnimalUI {
+    /**
+     *
+     * @return the maximum speed in meters per second for set animal
+     */
     public interface Swimmer {
         void swim();
-        double getMaxSwimSpeed();   // לשנייה במטר
+        double getMaxSwimSpeed();   // in meters per second
     }
 
+    /**
+     *
+     * @return the maximum height in meters set can fly
+     */
     public interface Flyer {
         void fly();
-        double getMaxFlightHeight();   // במטרים
+        double getMaxFlightHeight();   // in meters
     }
 
     /**

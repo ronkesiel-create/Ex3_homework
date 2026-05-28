@@ -1,7 +1,16 @@
+package AnimalsCode;
+
 public class Animal {
    private String name;
    private int age;
    private double weight;
+
+    /**
+     * the constructor of the class
+     * @param name of the animal
+     * @param age in years
+     * @param weight in kilos
+     */
    public Animal(String name, int age, double weight) {
        this.name = name;
        this.age = age;
